@@ -18,7 +18,6 @@ You will be able to:
 # Run this cell without changes
 import numpy as np
 import matplotlib.pyplot as plt
-%matplotlib inline
 ```
 
 ## Exercise 1
@@ -43,10 +42,11 @@ The graph you create should look like this:
 
 
 ```python
-# Codegrade Step1
+# CodeGrade step1
+
 # Replace None with appropriate code
 height = None
-x = None
+x = range(6)
 labels = None
 
 # Create the plot
@@ -90,13 +90,14 @@ The graph you create should look like this:
 
 
 ```python
-# Codegrade Step2
+# CodeGrade Step2
+
 # Replace None with appropriate code
 
 weight = [2750, 3125, 2100, 4082, 2690, 3640, 4380, 2241, 2895, 3659]
 mpg = [29, 23, 33, 28, 20, 21, 14, 25, 31, 17]
 
-# Create the plot
+# Create the plot objects fig and ax
 None
 
 # Plot with scatter()
@@ -124,7 +125,8 @@ The graph you create should look like this:
 
 
 ```python
-# Codegrade Step3
+# CodeGrade Step3
+
 # Replace None with appropriate code
 
 x = [43.1, 35.6, 37.5, 36.5, 45.3, 43.4, 
@@ -132,7 +134,7 @@ x = [43.1, 35.6, 37.5, 36.5, 45.3, 43.4,
      30.3, 31.4, 35.6, 45.2, 54.1, 45.6, 
      36.5, 43.1]
 
-# Create the plot
+# Create the plot objects fig and ax
 None
 
 # Plot the histogram with hist() function

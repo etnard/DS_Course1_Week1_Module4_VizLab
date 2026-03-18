@@ -6,7 +6,7 @@ import sys
 
 # CONSTANTS
 SOLUTION_TAG = "__SOLUTION__"
-CURRICULUM_BRANCH = "curriculum"
+CURRICULUM_BRANCH = "main"
 MASTER_BRANCH = "master"
 SOLUTION_BRANCH = "solution"
 CUSTOM_COMMIT_MSG_FLAG = "-m"
